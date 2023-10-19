@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+  </head>
+  <body>
+    <section id="menu">
+      <div class="logo">
+        <img src="./images/logo.png" alt="" />
+        <h2>Dynamic</h2>
+      </div>
+
+      <div class="items">
+        <li><i class="fa-solid fa-chart-pie"></i> <a href="#">Dashboard</a></li>
+        <li><i class="fab fa-uikit"></i> <a href="#">UI elements</a></li>
+        <li><i class="fas fa-th-large"></i> <a href="#">Tables</a></li>
+        <li><i class="fas fa-edit"></i> <a href="#">Forms</a></li>
+        <li>
+          <i class="fa-regular fa-address-card"></i> <a href="#">Cards</a>
+        </li>
+        <li><i class="fas fa-hamburger"></i> <a href="#">Modal</a></li>
+        <li><i class="fas fa-chart-line"></i> <a href="#">Blank</a></li>
+      </div>
+    </section>
+
+    <section id="interface">
+      <div class="navbar">
+        <div class="left">
+            <div>
+                <i class="fas fa-bars" id="menu-btn"></i>
+            </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text " placeholder="Search here..." />
+          </div>
+        </div>
+        <div class="right">
+          <i class="fa-regular fa-bell"></i>
+          <img src="./images/1.jpg" alt="" />
+        </div>
+      </div>
+
+      <h3 class="i-name">Dashboard</h3>
+
+      <div class="values">
+        <div class="val-box">
+          <i class="fas fa-users"></i>
+          <div>
+            <h3>8,267</h3>
+            <span>New Users</span>
+          </div>
+        </div>
+        <div class="val-box">
+          <i class="fas fa-shopping-cart"></i>
+          <div>
+            <h3>265,321</h3>
+            <span>Total Orders</span>
+          </div>
+        </div>
+        <div class="val-box">
+          <i class="fa-solid fa-gift"></i>
+          <div>
+            <h3>215, 578</h3>
+            <span>Product Sell</span>
+          </div>
+        </div>
+        <div class="val-box">
+          <i class="fas fa-dollar-sign"></i>
+          <div>
+            <h3>$677.89</h3>
+            <span>This month</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="board">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Title</td>
+              <td>Status</td>
+              <td>Role</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="people">
+                <img src="./images/1.jpg" alt="" />
+                <div class="people-de">
+                  <h5>John Doe</h5>
+                  <p>john@example.com</p>
+                </div>
+              </td>
+              <td class="poeple-des">
+                <h5>Software Engineer</h5>
+                <p>Web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit">
+                <a href="#"> Edit </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="./images/2.jpg" alt="" />
+                <div class="people-de">
+                  <h5>William kent</h5>
+                  <p>willian@hotmail.com</p>
+                </div>
+              </td>
+              <td class="poeple-des">
+                <h5>Product Engineer</h5>
+                <p>Designer</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit">
+                <a href="#"> Edit </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="./images/3.jpg" alt="" />
+                <div class="people-de">
+                  <h5>Emma Johnson</h5>
+                  <p>Emma@gmail.com</p>
+                </div>
+              </td>
+              <td class="poeple-des">
+                <h5>Software Engineer</h5>
+                <p>Web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit">
+                <a href="#"> Edit </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="./images/3.jpg" alt="" />
+                <div class="people-de">
+                  <h5>Oliver Smith</h5>
+                  <p>oliver@yahoo.com</p>
+                </div>
+              </td>
+              <td class="poeple-des">
+                <h5>Mechanical Engineer</h5>
+                <p>Technical Manager</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit">
+                <a href="#"> Edit </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="./images/4.jpg" alt="" />
+                <div class="people-de">
+                  <h5>Charlotte Williams</h5>
+                  <p>charlotte@gmail.com</p>
+                </div>
+              </td>
+              <td class="poeple-des">
+                <h5>Software Engineer</h5>
+                <p>Web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit">
+                <a href="#"> Edit </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="./images/5.jpg" alt="" />
+                <div class="people-de">
+                  <h5>Amelia Jones</h5>
+                  <p>amelia@example.com</p>
+                </div>
+              </td>
+              <td class="poeple-des">
+                <h5>Electrical Engineer</h5>
+                <p>Lead Manager</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit">
+                <a href="#"> Edit </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="people">
+                <img src="./images/6.jpg" alt="" />
+                <div class="people-de">
+                  <h5>Benjamin Davis</h5>
+                  <p>benjamin@yahoo.com</p>
+                </div>
+              </td>
+              <td class="poeple-des">
+                <h5>Software Engineer</h5>
+                <p>Web dev</p>
+              </td>
+              <td class="active">
+                <p>Active</p>
+              </td>
+              <td class="role">
+                <p>Owner</p>
+              </td>
+              <td class="edit">
+                <a href="#"> Edit </a>
+              </td>
+            </tr>
+           
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('#menu').toggleClass("active")
+        })
+    </script>
+  </body>
+</html>
